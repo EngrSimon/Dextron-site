@@ -58,13 +58,11 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    padding-left: 170px;
 }
 
 
 .leftlogo{
     display: flex;
-    margin-left: -60px;
 }
 
 .search
@@ -75,7 +73,6 @@ nav{
     background-color: #fff;
     border-radius: 8px;
     margin: 25px;
-    margin-left: -10px;
 }
 
 .search input{
@@ -98,7 +95,7 @@ button{
 .leftlogo img 
 {
     width: 160px;
-    padding-right: 70px;
+    margin-right: -70px;
 }
 
 .button img
