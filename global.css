@@ -2,6 +2,7 @@
 
 body{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400; /* Bold version */
    }
 
 a{
@@ -84,8 +85,6 @@ padding:0;
 background:none!important;
 color:#ff0000;
   }
-
-
 
 
 /*********************footer****************/

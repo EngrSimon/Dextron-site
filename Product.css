@@ -4,7 +4,7 @@ body {
   
   h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700; /* Bold version */
+    font-weight: 800; /* Bold version */
   }
   
 /*********************product****************/
@@ -40,6 +40,12 @@ body {
 .box:hover {
   background-color: #3535ff; 
 }
+
+.span_4{
+	display: none;
+}
+
+
 
 @media (max-width: 768px) {
   .box {
