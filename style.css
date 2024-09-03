@@ -303,15 +303,14 @@ h2 {
 }
 
 .grid-container {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* Six columns, one for each image */
     gap: 50px; /* Space between items */
     padding: 20px;
     overflow-x: auto; /* Allows scrolling if the content overflows */
     margin-bottom: 50px;
-    padding-left: 10px;
-
+    margin-left: 85px;
 }
 
 .grid-item {

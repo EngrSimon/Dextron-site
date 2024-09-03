@@ -76,7 +76,7 @@
   }
   
   /*****************************************/
-  .container {
+  #unique-id {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -226,12 +226,14 @@
   .contact-form-container {
     background-color: #000000;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     width: 800px;
     max-width: 100%;
     margin-left: 370px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
   
   .contact-form-container h4 {
@@ -295,3 +297,24 @@
   button:hover {
     background-color: #c0392b;
   }
+
+  .text-card{
+    width: 100%;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  
+  #repairs{
+    position: relative;
+    background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/repairs.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-card li{
+  margin-left: 30px;
+}
