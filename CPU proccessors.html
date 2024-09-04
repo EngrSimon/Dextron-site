@@ -186,6 +186,14 @@
 	</ul>
 	</div>
 	<!----Menu ends----->
+
+  <!-----promo section---->
+<div class="promo-section">
+	<div class="promo-text">On-Sale Laptops</div>
+	<a href="laptops.html" class="promo-button">Shop now</a>
+</div>
+
+<!--------------------->
    
     <div class="next-text">
         <h1 style="font-size: 40px;"> <strong>CPU Proccessors</strong></h1>
@@ -815,28 +823,30 @@
 
 
 
+   <script src='https://kit.fontawesome.com/c8e4d183c2.js'></script>
 
-<script src="script.js"></script>
-
-<script>
-$(document).ready(function(){
-	/*****Fixed Menu******/
-	var secondaryNav = $('.cd-secondary-nav'),
-	   secondaryNavTopPosition = secondaryNav.offset().top;
-	   navbar_height = document.querySelector('.navbar').offsetHeight;
-	   
-		$(window).on('scroll', function(){
-		    if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
-				secondaryNav.addClass('is-fixed');	
-				document.body.style.paddingTop = navbar_height + 'px';
-				
-			} else {
-				secondaryNav.removeClass('is-fixed');
-				document.body.style.paddingTop = '0'
-			}
-		});	
-		
-});
-</script>
-</body>
-</html>
+   <script src="script.js"></script>
+   
+   <script>
+   $(document).ready(function(){
+     /*****Fixed Menu******/
+     var secondaryNav = $('.cd-secondary-nav'),
+        secondaryNavTopPosition = secondaryNav.offset().top;
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        
+       $(window).on('scroll', function(){
+           if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
+           secondaryNav.addClass('is-fixed');	
+           document.body.style.paddingTop = navbar_height + 'px';
+           
+         } else {
+           secondaryNav.removeClass('is-fixed');
+           document.body.style.paddingTop = '0'
+         }
+       });	
+       
+   });
+   </script>
+   </body>
+   </html>
+   
