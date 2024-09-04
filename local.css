@@ -88,6 +88,13 @@
     width: 100%; 
     margin: 0 auto;
   }
+  #unique-id h2{
+    text-align: left;
+  }
+
+  #unique-id p{
+    text-align: left;
+  }
   
   
   .image img {
@@ -220,7 +227,7 @@
     }
   }
   
-  /*******form *****************/
+  /*******form********/
   
   
   .contact-form-container {
@@ -301,8 +308,14 @@
   .text-card{
     width: 100%;
     margin-left: 70px;
-    margin-top: 50px;
+    margin-top: 70px;
   }
+
+  .text-card li{
+    margin-left: 30px;
+  }
+  
+
   
   #repairs{
     position: relative;
@@ -315,6 +328,110 @@
     justify-content: center;
 }
 
-.text-card li{
-  margin-left: 30px;
+  #Upgrades{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/computer-upgrades.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#setup{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/setup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Virus{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/malware.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Backup{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/backup.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Recovery{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/data-rec.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Destruction{
+  position: relative;
+  background-image: url('assets/Local IT Support Services _ Dronfield _ Upgrades_Repairs _ Anti-Virus _ Direct Computers/data-desctruction.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*****Business*******/
+
+#Business{
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/3d-rendering-dark-modern-server-room-data-center-storage-center-min\ \(1\).jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-text{
+text-align: center;
+margin-bottom: 70px;
+}
+
+#IT-id{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3465d2;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    max-width: 1600px; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+#IT-id h2{
+  margin-right: 130px;
+  color: #fff;
+  text-align: left;
+}
+
+#IT-id p{
+  color: #fff;
+  text-align: left;
 }
