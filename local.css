@@ -435,3 +435,125 @@ margin-bottom: 70px;
   color: #fff;
   text-align: left;
 }
+
+
+/* Container for the carousel In Business & Public Sector */
+
+.Business-caption{
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.client-container {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Carousel inner container for sliding effect */
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Each card in the carousel */
+.client-card {
+  background-color: #007bff;
+  color: white;
+  width: 30%;
+  flex-shrink: 0;
+  margin-right: 20px;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Sheffield specific color */
+.client-sheffield { background-color: #005eb8; }
+
+/* Leeds specific color */
+.client-leeds { background-color: #0066a5; }
+
+/* Harrogate specific color */
+.client-harrogate { background-color: #30336b; }
+
+/* Additional card styles */
+.client-additional1 { background-color: #00aaff; }
+.client-additional2 { background-color: #55c57a; }
+.client-additional3 { background-color: #ff6f61; }
+
+/* Logo container */
+.client-logo {
+  margin-bottom: 20px;
+}
+
+/*images fit the card width */
+.client-logo img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+/* Title of the card */
+.client-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Navigation Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+  margin-left: 1447px;
+  margin-top: 20px;
+}
+
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.client-container p{
+  color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.client-container h2{
+  text-align: left;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .carousel {
+      flex-direction: column;
+  }
+
+  .client-card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .carousel-btn{
+    display: none;
+  }
+}
