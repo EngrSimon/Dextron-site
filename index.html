@@ -40,6 +40,9 @@
     <a href="#" class="rightlogos" id="profile"><i class="fa fa-user"></i></a>
     <a href="#" class="rightlogos" id="cart"><i class="fa fa-shopping-cart"></i></a> 
 </div>
+
+<a href="#" class="menu-toggle" id="menu-toggle"><i class="fa fa-menu"></i></a> 
+
 </nav>
 <!----Navbar ends----->
    
@@ -284,51 +287,43 @@
 
 
 <!-- Container for form and finance options -->
-<div class="container-fluid" style="background-image: url('assets/82392.jpg'); background-size: cover; background-position: center; padding: 50px 0;">
-	  <div class="container text-white">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="card bg-transparent border-0">
-                    <div class="card-content mt-4">
-                        <h1>Flexible Finance Options</h1>
-                        <h4>Spread the cost of payments with our finance options.<br>Pay in 3, pay in 4, pay in 30 days, and pay monthly options.</h4>
-                        <a href="#" class="link-button btn mb-3 mt-3" style="background-color:hsl(359deg, 85%, 53%, 100%)">Learn More</a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="card bg-transparent border-0">
-                    <div class="form-container p-4 bg-white rounded">
-                        <h2 class="text-dark">Quick Shop</h2>
-                        <form>
-                            <div class="mb-3">
-                                <label for="category-name" class="form-label text-dark">Category Name:</label>
-                                <input type="text" id="category-name" name="category-name" class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="item-selection" class="form-label text-dark">Choose a category:</label>
-                                <select id="item-selection" name="item-selection" class="form-select" required>
-                                    <option value="" disabled selected>Select an item</option>
-                                    <option value="item1">Next day</option>
-                                    <option value="item2">Custom PCs</option>
-                                    <option value="item3">Laptops</option>
-                                    <option value="item4">Monitors</option>
-                                    <option value="item5">Components</option>
-                                    <option value="item6">Printers</option>
-                                    <option value="item7">Peripherals</option>
-                                    <option value="item8">Brands</option>
-                                    <option value="item9">Software</option>
-                                </select>
-                            </div>
-                            <button type="submit" class="btn" style="background-color:hsl(359deg, 85%, 53%, 100%)">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<section class="finance-shop-container">
+	<!-- Left Side: Finance Options -->
+	<div class="finance-info">
+		<h4 class="finance-subtitle">Clearpay, Klarna & PayPal Credit</h4>
+		<h1 class="finance-title">Flexible Finance Options</h1>
+		<p class="finance-description">Spread the cost of payments with our finance options. Pay in 3, pay in 4, pay in 30 days and pay monthly options.</p>
+		<button class="finance-learn-more-btn">Learn More</button>
+	</div>
+
+	<!-- Right Side: Quick Shop Form -->
+	<div class="quick-shop-form">
+		<div class="quick-shop-content">
+			<h3 class="quick-shop-title">Quick Shop</h3>
+			<select class="quick-shop-select">
+				<option selected disabled>Choose a Category</option>
+				<option>Next Day</option>
+				<option>Custom PCs</option>
+				<option>Desktop PCs</option>
+				<option>Laptops</option>
+				<option>Components</option>
+				<option>Peripherals</option>
+			</select>
+			<select class="quick-shop-select">
+				<option selected disabled>Choose an option</option>
+				<option>Option 1</option>
+				<option>Option 2</option>
+			</select>
+			<select class="quick-shop-select">
+				<option selected disabled>Choose an option</option>
+				<option>Option 1</option>
+				<option>Option 2</option>
+			</select>
+			<button class="quick-shop-search-btn">Search</button>
+		</div>
+	</div>
+</section>
 
 <!----Recently added----->
 
@@ -450,7 +445,7 @@
   
 
 <!----FOOTER----->
-    
+
 <section id="footer">
 	<div class="container">
 	 <div class="row">
@@ -460,22 +455,26 @@
 		 <h5 style="color: white;" class="mgt col"><i class="fa fa-globe"></i> Visit our Support center <br> Expert help & advice</h5>
 		</div>
 	   </div>
+
 	   <div class="col-sm-3 col-xs-6">
 		<div class="footer_1i clearfix">
 		 <h5 style="color: white;" class="mgt col"><i class="fa fa-truck"></i> Check your order status <br> Updates & Tracking</h5>
 		</div>
 	   </div>
+
 	   <div class="col-sm-3 col-xs-6">
 		<div class="footer_1i clearfix">
 		 <h5 style="color: white;" class="mgt col"><i class="fa fa-retweet"></i>Returns & refunds All <br> you need to know</h5>
 		</div>
 	   </div>
+
 	   <div class="col-sm-3 col-xs-6">
 		<div class="footer_1i border_none clearfix">
 		 <h5  style="color: white;"  class="mgt col"><i class="fa fa-tags"></i>Sell & Trade <br> Your IT Experience</h5>
 		</div>
 	   </div>
 	  </div>
+	  
 	  <div class="footer_2 clearfix">
 	   <div class="col-sm-2">
 		<div class="footer_2i clearfix">
@@ -555,7 +554,8 @@
 	 </div>
 	</div>
    </section>
-
+------------>
+   
 
 
 

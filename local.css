@@ -1,7 +1,6 @@
 
  /************** Local IT Service *******************/
-
-
+ 
  .hero-section {
     position: relative;
     background-image: url('assets/Local\ IT\ Support\ Services\ _\ Dronfield\ _\ Upgrades_Repairs\ _\ Anti-Virus\ _\ Direct\ Computers/technician-repairing-computer-process-replacing-components-motherboard-min.jpg'); /* Replace with your image path */
@@ -314,6 +313,38 @@
   .text-card li{
     margin-left: 30px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .contact-form-container {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    
+    .contact-form-container p {
+      font-size: 12px;
+    }
+  
+    .text-card {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .text-card li {
+      margin-left: 15px;
+    }
+  
+    input, select, textarea {
+      font-size: 12px;
+    }
+  
+    .contact-form-container button {
+      font-size: 12px;
+    }
+  }
+/*******Form Ends********/
   
 
   
