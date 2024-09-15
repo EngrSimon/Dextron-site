@@ -56,16 +56,5 @@ jQuery(document).ready(function($) {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-// recently added
-
+// updated menbar
 

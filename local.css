@@ -588,3 +588,59 @@ margin-bottom: 70px;
     display: none;
   }
 }
+
+  #Procurement{
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/procurement.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#managedIT{
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/it-support.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#cloud{
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/Cloud-solutions.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Microsoft {
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/microsoft.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Cyber {
+  position: relative;
+  background-image: url('assets/Business _ Public Sector IT Support Services _ Direct Computers/cybersecurity.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
