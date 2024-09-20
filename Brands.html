@@ -208,14 +208,58 @@
         <a href="laptops.html" class="promo-button">Shop now</a>
     </div>
 
+    <section class="brand-section">
+        <div class="brand-content">
+            <h1>Brands</h1>
+            <h3>Welcome to our brands page!</h3>
+            <p>Embark on a journey through cutting-edge technology with our exclusive brands. At Direct Computers, we're passionate about bringing you the pinnacle of computing excellence. Dive into a curated selection of the most trusted and innovative computer brands, each handpicked to enhance your digital world.</p>
+            <h4>Why Choose Dextron Computers</h4>
+            <p class="short-text">
+                Discover the best computing solutions.<span class="dots">...</span>
+                <span class="more-text">
+                    Diverse Range: Whether you're a gaming enthusiast, a creative professional, or someone seeking reliable computing solutions, our collection caters to all. Discover a diverse range of computer brands, each with a unique offering to meet your specific needs.<br><br>
+                    Performance Assurance: We prioritize performance and reliability. Every computer brand featured in our collection undergoes rigorous scrutiny, ensuring you get nothing but top-notch performance and durability.<br><br>
+                    Convenience Redefined: With our brands page, we've simplified your search for the perfect computing device. Enjoy the convenience of exploring renowned brands, all in one place, to make an informed decision based on your preferences and requirements.<br><br>
+                    Elevate your computing experience with Direct Computers. Discover the power, innovation, and reliability that define our brands. Shop with confidence, knowing you're investing in the best names in the world of technology.
+                </span>
+            </p>
+            <a href="javascript:void(0)" class="read-more" onclick="toggleReadMore()">Read More</a>
+        </div>
+        <div class="brand-image">
+            <img src="assets/Brands _ Direct Computers/7K834EA-ABU_8_1750x1285-min.jpg" alt="Laptop Image">
+        </div>
+    </section>
 
+    <script>
+        function toggleReadMore() {
+            var moreText = document.querySelector(".more-text");
+            var dots = document.querySelector(".dots");
+            var btn = document.querySelector(".read-more");
+
+            if (moreText.style.display === "inline") {
+                moreText.style.display = "none";
+                dots.style.display = "inline";
+                btn.textContent = "Read More";
+            } else {
+                moreText.style.display = "inline";
+                dots.style.display = "none";
+                btn.textContent = "Read Less";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".more-text").style.display = "none";
+        });
+    </script>
+
+<!---------------next section------------------->
 
 <section class="brands">
     <h2>Brands</h2>
     <div class="brands-grid">
         <div class="brand">
-            <img src="assets/Brands _ Direct Computers/ggf.png" alt="ASUS Logo">
-            <p>ASUS</p>
+           <a href="asus.html"><img src="assets/Brands _ Direct Computers/ggf.png" alt="ASUS Logo">
+            <p>ASUS</p></a>
         </div>
         <div class="brand">
             <img src="assets/Brands _ Direct Computers/asd.png" alt="Apple Logo">
