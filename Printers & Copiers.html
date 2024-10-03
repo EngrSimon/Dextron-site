@@ -20,6 +20,7 @@
   
 <body>
 	
+
 <!----Navbar starts----->
 
 <nav>
@@ -28,164 +29,193 @@
       <img src="DIXTRON.png"></a>
   </div>
   
-  <div class="search">
-      <input type="text" placeholder="write...">
-      <button class="button">
-          <div class="search-container">
-          <!--- <i class="fa fa-search"></i> ----->
-      </button>
-  </div>
+<!-- Search bar -->
+<div class="search-bar">
+<select name="category" class="category-dropdown">
+  <option value="all">All</option>
+</select>
+<input type="text" placeholder="Click me and search...">
+</div>
+
   <div class="right-logo">
   <a href="#" class="rightlogos" id="profile"><i class="fa fa-user"></i></a>
   <a href="#" class="rightlogos" id="cart"><i class="fa fa-shopping-cart"></i></a> 
 </div>
+
+<a href="#" class="menu-toggle" id="menu-toggle"><i class="fa fa-menu"></i></a> 
+
 </nav>
 <!----Navbar ends----->
  
+<!----Menu-bar----->
+<div class="menu-bar" id="menu-bar">
+<ul>
+  <li class="has-submenu"><a href="Next day Products.html">Next Day</a>
+    <div id="nextday" class="submenu">
+      <div class="submenu-section">
+        <a href="Next.Day.Delivery.Gaming.PCs.html"><button>Next Day Gaming PCs</button></a>
+        <a href="Gaming PCs.html"><button>Gaming PC</button></a>
+        <a href="Next Day Delivery Desktop PCs.html"><button>Next Day Desktop</button></a>
+        <a href="next day laptop.html"><button>Next day Laptop</button></a>
+        <a href="Next day Components.html"><button>Next day Components</button></a>
+        <a href="next day storage.html"><button>Next day Storage</button></a>
+        <a href="next day peripherals.html"><button>Next day Peripheral</button></a>
+        <a href="next day networking.html"><button>Next day Networking</button></a>
+    </div>
+  </li>
 
- <!----meanubar---->
- <div class="menu-bar">
-	<ul>
-		<li><a href="Next day Products.html"><i class="fa fa-arrow-circle-right"></i>Next Day</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Next.Day.Delivery.Gaming.PCs.html">Next day Gaming PCs</a></li>
-					<li><a href="Next Day Delivery Desktop PCs.html">Next day Desktop</a></li>
-					<li><a href="next day laptop.html">Next day Laptop</a></li>
-					<li><a href="Next day Components.html">Next day Components</a></li>
-					<li><a href="next day storage.html">Next day Storage</a></li>
-					<li><a href="next day peripherals.html">Next day Peripherals</a></li>
-					<li><a href="next day networking.html">Next day Networking</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="Custom PCs.html">Custom PCs</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Gaming PCs.html">Gaming PCs</a></li>
-					<li><a href="Workstation PCs.html">Workstation PCs</a></li>
-					<li><a href="Intel Gaming PCs.html">Intel based PCs</a></li>
-					<li><a href="AMD based PCs.html">AMD based PCs</a></li>
-					<li><a href="Build your own PCs.html">Build your own PCs</a></li>
-					<li><a href="Nvidia GeForce PCs.html">Nvidia GeForce PCs</a></li>
-					<li><a href="AMD Radeon PCs.html">AMD Radeon PCs</a></li>
-					<li><a href="Custom Home office PCs.html">Custom Home/office PCs</a></li>
-					<li><a href="PCs by budget.html">PCs by budget</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="Desktop PCs.html">Desktop PCs</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Apple iMac PCs.html">Apple PCs</a></li>
-					<li><a href="All in one PCs.html">All in one PCs</a></li>
-					<li><a href="Home Office PCs.html">Home/Office PCs</a></li>
-					<li><a href="Baredbone system.html">Barebone System</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="laptops.html">Laptops</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Apple laptops.html">Apple Laptops</a></li>
-					<li><a href="Home and office Laptops.html">Home/Office Laptops</a></li>
-					<li><a href="Gaming Laptops.html">Gaming Laptops</a></li>
-					<li><a href="Laptop Bags and sleeves.html">Laptop Bags and Sleeves</a></li>
-					<li><a href="Laptop docks.html">Laptop Docks</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="components.html">Components</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Cases.html">Cases</a></li>
-					<li><a href="motherboards.html">Motherboards</a></li>
-					<li><a href="CPU proccessors.html">CPU Processors</a></li>
-					<li><a href="Fans & Cooling.html">Fans & Cooling</a></li>
-					<li><a href="Memory.html">Memory</a></li>
-					<li><a href="Storage.html">Storage</a></li>
-					<li><a href="Graphics Cards.html">Graphics Cards</a></li>
-					<li><a href="Power Supplies.html">Power Supplies</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="Peripheral.html">Peripherals</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Monitors.html">Monintors</a></li>
-					<li><a href="Mouse and Keyboard.html">Mouse & Keyboards</a></li>
-					<li><a href="Headsets microphones and webcams.html">Headsets, Microphones & Webcams</a></li>
-					<li><a href="Printing.html">Printing</a></li>
-					<li><a href="gaming accessories.html">Gaming Accessories</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="Softwares.html">Software</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Microsoft Licences.html">Microsoft Licences</a></li>
-					<li><a href="Antivirus Software.html">Antivirus Software</a></li>
-					<li><a href="IT Support Packages.html">IT Support Packages</a></li>
-				</ul>
-			</div> 
-		</li>
-		<li><a href="networking.html">Networking</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Business networking.html">Business Networking</a></li>
-					<li><a href="Ubiquiti.html">Ubiquiti</a></li>
-					<li><a href="Routers Mesh Systems & Switches.html">Routers/Mesh Systems & Switches</a></li>
-					<li><a href="Serves & Rack Cabinets.html">Serves & Rack Cabinets</a></li>
-					<li><a href="Network Modules.html">Network Modules</a></li>
-					<li><a href="PCI PCI-E Add in Cards.html">PCI/PCI-E Add in Cards</a></li>
-				</ul>
-			</div>
-		</li>
-		<li><a href="Brands.html">Brands</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="asus.html">ASUS</a></li>
-					<li><a href="Apple.html">Apple</a></li>
-					<li><a href="amd.html">AMD</a></li>
-					<li><a href="BE QUIET.html">BE QUIET!</a></li>
-					<li><a href="Canon.html">Canon</a></li>
-					<li><a href="Corsair.html">Corsair</a></li>
-					<li><a href="DeepCool.html">DeepCool</a></li>
-					<li><a href="Kingston.html">Kingston</a></li>
-					<li><a href="HP.html">HP</a></li>
-					<li><a href="HPE.html">HPE</a></li>
-					<li><a href="Marvo.html">Marvo</a></li>
-					<li><a href="piXL.html">piXL</a></li>
-					<li><a href="Samsung.html">Samsung</a></li>
-					<li><a href="TP-Link.html">TP-Link</a></li>
-					<li><a href="Western Digital.html">Western Digital</a></li>
-				</ul>
-			</div>
-		</li>
-		<li style="background-color: rgb(10, 27, 185);"><a href="Local IT Services.html">Local IT Services</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="Computer Repairs & Troubleshooting.html">Computer Repairs & Troubleshooting</a></li>
-					<li><a href="Computer Upgrades & Optimisation.html">Computer Upgrades & Optimisation</a></li>
-					<li><a href="Computer Setup & Data Transfer.html">Computer Setup & Data Transfer</a></li>
-					<li><a href="virus & malware removal.html">Virus & Malware Removal</a></li>
-					<li><a href="backup solution.html">Backup Solutions</a></li>
-					<li><a href="Data Recovery.html">Data Recovery</a></li>
-					<li><a href="Data Destruction.html">Data Destruction</a></li>
-			</div>
-		</li>
-		<li style="background-color: rgb(255, 0, 13);"><a href="Business & public Sector IT.html">Business & Public Sector IT</a>
-			<div class="sub-menu-1">
-				<ul>
-					<li><a href="IT Service.html">IT Service</a></li>
-					<li><a href="Hardware Services.html">Hardware Services</a></li>
-					<li><a href="Sectors.html">Sectors</a></li>
-				</ul>
-			</div>
-		</li>
-	</ul>
-	</div>
-	<!----Menu ends----->
+  <li class="has-submenu"><a href="Custom PCs.html">Custom PCs</a>
+    <div id="custom-pcs-submenu" class="submenu">
+      <div class="submenu-section">
+        <a href="Build your own PCs.html"><button>Build Your Own PC</button></a>
+        <a href="Gaming PCs.html"><button>Gaming PC</button></a>
+        <a href="Workstation PCs.html"><button>Workstation PCs</button></a>
+        <a href="Custom Home office PCs.html"><button>Home/Office PCs</button></a>
+        <a href="PCs by budget.html"><button>PCs by Budget</button></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="has-submenu"><a href="Desktop PCs.html">Desktop PCs</a>
+    <div id="desktop-submenu" class="submenu">
+      <div class="submenu-section">
+        <a href="Apple iMac PCs.html"><button>Apple iMac PCs</button></a>
+        <a href="All in one PCs.html"><button>All in One PCs</button></a>
+        <a href="Home Office PCs.html"><button>Home/Office PCs</button></a>
+        <a href="Baredbone system.html"><button>Barebone Systems</button></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="has-submenu"><a href="laptops.html">Laptops PCs</a>
+    <div id="laptop-submenu" class="submenu">
+      <div class="submenu-section">
+      <a href="Apple laptops.html"><button>Apple Laptops</button></a>
+      <a href="Home and office Laptops.html"><button>Home/Office Laptops</button></a>
+      <a href="Gaming Laptops.html"><button>Gaming Laptops</button></a>
+      <a href="Laptop Bags and sleeves.html"><button>Laptop Bags and Sleeves</button></a>
+      <a href="Laptop docks.html"><button>Laptop Docks</button></a>
+      </div>
+    </div>
+  </li>
+
+
+  <li class="has-submenu"><a href="components.html">Components</a>
+    <div id="component-submenu" class="submenu">
+      <div class="submenu-section">
+        <a href="Cases.html"><button>Cases</button></a>
+        <a href="motherboards.html"><button>Motherboards</button></a>
+        <a href="CPU proccessors.html"><button>CPU Processor</button></a>
+        <a href="Fans & Cooling.html"><button>CPU Processor</button></a>
+        <a href="Memory.html"><button>Memory</button></a>
+        <a href="Storage.html"><button>Storage</button></a>
+        <a href="Graphics Cards.html"><button>graphics Cards</button></a>
+        <a href="Power Supplies.html"><button>Power Supplies</button></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="has-submenu"><a href="Peripheral.html">Peripherals</a>
+    <div id="per-menu" class="submenu">
+      <div class="submenu-section">
+        <a href="Monitors.html"><button>Monitors</button></a>
+        <a href="Mouse and Keyboard.html"><button>Mouse & Keyboards</button></a>
+        <a href="Headsets microphones and webcams.html"><button>Headsets microphones and webcams</button></a>
+        <a href="Printing.html"><button>Printing</button></a>
+        <a href="gaming accessories.html"><button>Gaming Accessories</button></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="has-submenu">
+    <a href="Softwares.html">Software</a>
+    <div id="soft-menu" class="submenu">
+      <div class="submenu-section">
+        <a href="Microsoft Lincenses.html"><button>Microsoft Lincences</button></a>
+        <a href="Antivirus Software.html"><button>Anti-Virus</button></a>
+        <a href="IT Support Packages.html"><button>IT Support Packages</button></a>
+      </div>
+    </div>
+  </li>
+
+  <li class="has-submenu">
+    <a href="networking.html">Networking</a>
+    <div id="net-menu" class="submenu">
+      <div class="submenu-section">
+        <a href="Business networking.html"><button>Business Networking</button></a>
+        <a href="Ubiquiti.html"><button>Ubiquiti</button></a>
+        <a href="Routers and Mesh Systems and Switches.html"><button>Routers/Mesh Systems & Switches</button></a>
+        <a href="Network Modules.html"><button>Network Modules</button></a>
+        <a href="Servers & Rack Cabinets.html"><button>Servers & Rack Cabinets</button></a>
+        <a href="PCI PCI-E Add in Cards.html"><button>PCI/PCI-E Add in Cards</button></a>
+      </div>
+  </li>
+  
+  <li class="has-submenu"><a href="Brands.html">Brands</a>
+    <div id="brands-menu" class="submenu">
+      <div class="submenu-section">
+        <a href="asus.html"><button>ASUS</button></a>
+        <a href="Apple.html"><button>Apple</button></a>
+        <a href="amd.html"><button>AMD</button></a>
+        <a href="BE QUIET.html"><button>be quiet!</button></a>
+        <a href="Canon.html"><button>Canon</button></a>
+        <a href="Corsair.html"><button>Corsair</button></a>
+        <a href="DeepCool.html"><button>DeepCool</button></a>
+      </div>
+      <div class="submenu-section">
+        <a href="Kingston.html"><button>Kingston</button></a>
+        <a href="HP.html"><button>HP</button></a>
+        <a href="HPE.html"><button>HPE</button></a>
+        <a href="Marvo.html"><button>Marvo</button></a>
+        <a href="piXL.html"><button>piXL</button></a>
+        <a href="Samsung.html"><button>Samsung</button></a>
+        <a href="TP-Link.html"><button>TP-Link</button></a>
+        <a href="Western Digital.html"><button>Western Digital</button></a>
+      </div>
+    </div>
+  </li>
+  
+  <li class="has-submenu" style="background-color: rgb(0, 0, 255);"><a href="Local IT Services.html">Local IT Services</a>
+    <div id="Local-menu" class="submenu">
+      <div class="submenu-section">
+        <h5>IT Services</h5>
+        <a href="Computer Repairs & Troubleshooting.html"><button>Computer Repairs & Troubleshooting</button></a>
+        <a href="Computer Upgrades & Optimisation.html"><button>Computer Upgrades and Optimisation</button></a>
+        <a href="Computer Setup & Data Transfer.html"><button>Computer Setup & Data Transfer</button></a>
+      </div>
+      <div class="submenu-section">
+        <h5>IT Services</h5>
+        <a href="virus & malware removal.html"><button>Virus & Malware Removal</button></a>
+        <a href="backup solution.html"><button>Backup Solutions</button></a>
+        <a href="Data Recovery.html"><button>Data Recovery</button></a>
+        <a href="Data Recovery.html"><button>Data Destruction</button></a>
+      </div>
+    </li>
+
+  <li class="has-submenu" style="background-color: rgb(255, 0, 13);">
+    <a href="Business & public Sector IT.html">Business & Public Sector IT</a>
+    <div id="bus-menu" class="submenu">
+      <div class="submenu-section">
+        <h5>IT Services</h5>
+        <button>IT Procurement Services</button>
+        <button>Managed IT Support Services</button>
+        <button>Cloud Solutions</button>
+        <button>Microsoft 365 Services</button>
+        <button>Cyber Security Services</button>
+        <button>Data Services</button>
+        <button>System App & Dev Support</button>
+      </div>
+      <div class="submenu-section">
+        <h5>Hardware Services</h5>
+        <button>Business IT Products</button>
+        <button>IT Procurement Services</button>
+        <button>IT Equipment Leasing & Finance</button>
+      </div>
+    </div>
+  </li>
+</ul>
+</div>
+<!----Menu-bar----->
 	
 
 <!-----promo section---->
