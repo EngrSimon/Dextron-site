@@ -793,32 +793,6 @@ h2 {
         text-align: center;
     }
 }
-.top-banner {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Enable snapping */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
-}
-
-.banner-item {
-    min-width: 80%; /* Adjust width for each banner item */
-    flex: 0 0 auto; /* Ensure items don't shrink */
-    text-align: center;
-    scroll-snap-align: start; /* Snap to the start of each item */
-    padding: 20px;
-}
-
-.banner-item p {
-    font-size: 14px; /* Adjust font size for readability */
-}
-
-.banner-item span {
-    font-size: 12px; /* Adjust subtext size */
-}
-
-.banner-item i {
-    font-size: 18px; /* Adjust icon size */
-}
 
 @media (max-width: 768px) {
     .top-banner {
