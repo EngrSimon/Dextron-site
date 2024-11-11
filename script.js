@@ -56,5 +56,34 @@ jQuery(document).ready(function($) {
 });
 
 
-// updated menbar
+// cart
+
+// Get elements
+const cartIcon = document.getElementById('cart-icon');
+const cartModal = document.getElementById('cart-modal');
+const closeBtn = document.querySelector('.close-btn');
+const startShopping = document.getElementById('start-shopping');
+
+// Show the cart modal when clicking the cart icon
+cartIcon.addEventListener('click', () => {
+    cartModal.style.display = 'flex';
+});
+
+// Hide the modal when clicking the close button
+closeBtn.addEventListener('click', () => {
+    cartModal.style.display = 'none';
+});
+
+// Optional: Hide modal if clicking outside the modal content
+window.addEventListener('click', (event) => {
+    if (event.target === cartModal) {
+        cartModal.style.display = 'none';
+    }
+});
+
+// Handle start shopping button (e.g., redirect to home page)
+startShopping.addEventListener('click', () => {
+    window.location.href = '/'; // Change this to your desired page
+});
+
 

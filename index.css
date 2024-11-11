@@ -179,8 +179,72 @@ font-size:24px;
 text-align:center; 
  }
 
+/*********************Brands we work with****************/
 
-/*********************Recently added****************/
+.brands-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.brands-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.brand-logo img {
+    max-width: 100px;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.brand-logo img:hover {
+    filter: grayscale(0%);
+}
+
+.view-more {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .brands-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .brands-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 360px) {
+    .brands-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/*******/
 
 @media screen and (max-width : 767px){
 .hero{
