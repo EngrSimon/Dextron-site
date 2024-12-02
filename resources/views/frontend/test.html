@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header> <!-- Main navigation bar -->
+        <nav class="navbar">
+          <!-- Logo -->
+          <div class="logo">
+            Dextron<span class="red">computers</span>
+          </div>
+      
+          <!-- Search bar -->
+          <div class="search-bar">
+            <select name="category" class="category-dropdown">
+              <option value="all">All</option>
+            </select>
+            <input type="text" placeholder="Click me and search...">
+          </div>
+      
+          <!-- User and Cart icons -->
+          <div class="icons">
+            <span class="user-icon">👤</span>
+            <span class="cart-icon">🛒</span>
+          </div>
+        </nav>
+
+        <div class="menu-bar" id="menu-bar">
+            <ul>
+                <li><a href="#">Next Day</a></li>
+                <li><a href="#">Custom PCs</a></li>
+                <li><a href="#">Desktop PCs</a></li>
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Components</a></li>
+                <li><a href="#">Peripherals</a></li>
+                <li><a href="#">Software</a></li>
+                <li><a href="#">Networking</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#"></a>Local IT Service</li>
+                <li class="has-submenu">
+                    <a href="#">Business & Public Sector IT</a>
+                    <div class="submenu">
+                        <div class="submenu-section">
+                            <h3>IT Services</h3>
+                            <button>IT Procurement Services</button>
+                            <button>Managed IT Support Services</button>
+                            <button>Cloud Solutions</button>
+                            <button>Microsoft 365 Services</button>
+                            <button>Cyber Security Services</button>
+                            <button>Data Services</button>
+                            <button>System App & Dev Support</button>
+                        </div>
+                        <div class="submenu-section">
+                            <h3>Hardware Services</h3>
+                            <button>Business IT Products</button>
+                            <button>IT Procurement Services</button>
+                            <button>IT Equipment Leasing & Finance</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+          </div>
+    </header>
+
+    <script src="test.js"></script> <!-- External JS file -->
+</body>
+</html>
